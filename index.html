@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Room</title>
+    <link rel="stylesheet" href="static/main.css">
+    <script src="static/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/6c8e01facf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="control clearfix">
+        <div class="control-session">
+          <span class="control-title">session</span>
+          <i class="fa fa-minus-circle" id="session-minus"></i> &nbsp; <span id="session">120</span> &nbsp; <i class="fa fa-plus-circle" id="session-plus"></i>
+        </div>
+        <div class="control-break">
+          <span class="control-title">break</span>
+          <i class="fa fa-minus-circle" id="break-minus"></i> &nbsp; <span id="break">15</span> &nbsp; <i class="fa fa-plus-circle" id="break-plus"></i>
+        </div>
+      </div>
+      <div class="pomodoro session">
+        <div class="title">POMODORO CLOCK</div>
+        <div class="status">session</div>
+        <div class="timer">120:00</div>
+        <button class="button" id="switch"><i class="fa fa-exchange"></i></button>
+        <button class="button" id="reset"><i class="fa fa-refresh"></i></button>
+        <button class="button" id="toggle"><i class="fa fa-play"></i></button>
+      </div>
+      <footer>Focus timer, sleep later</footer>
+      <div class="spotify">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8Uebhn9wzrS?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <br>
+      <br>
+      <div class="spotify">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6jK9oSCtj7GIsN2qUGlr0Z?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <br>
+      <br>
+</body>
+</html>
